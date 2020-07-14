@@ -1,0 +1,4 @@
+rootProject.name = 'mpp-accounts-mobile'
+
+
+enableFeaturePreview('GRADLE_METADATA')

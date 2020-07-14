@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="mpp-accounts-mobile.androidMain" target="1.6" />
+      <module name="mpp-accounts-mobile.androidTest" target="1.6" />
+      <module name="mpp-accounts-mobile.jvmMain" target="1.6" />
+      <module name="mpp-accounts-mobile.jvmMain~1" target="1.6" />
+      <module name="mpp-accounts-mobile.jvmTest" target="1.6" />
+      <module name="mpp-accounts-mobile.jvmTest~1" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
