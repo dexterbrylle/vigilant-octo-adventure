@@ -1,5 +1,8 @@
 package sample
 
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
+
 actual class Sample {
     actual fun checkMe() =42
 }

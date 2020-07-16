@@ -5,9 +5,9 @@
       <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId="mpp-accounts-mobile">
         <dependsOnModuleNames>mpp-accounts-mobile:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>mpp-accounts-mobile.commonMain~1</sourceSet>
-          <sourceSet>mpp-accounts-mobile.iosMain~1</sourceSet>
           <sourceSet>mpp-accounts-mobile.commonTest~1</sourceSet>
+          <sourceSet>mpp-accounts-mobile.iosMain~1</sourceSet>
+          <sourceSet>mpp-accounts-mobile.commonMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>iosTest|mpp-accounts-mobile:iosTest|ios</externalSystemTestTasks>

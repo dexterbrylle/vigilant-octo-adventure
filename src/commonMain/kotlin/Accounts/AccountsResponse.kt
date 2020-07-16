@@ -6,15 +6,10 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class AccountsResponse(
-    val accounts: Accounts
-) : ApiMessage()
-
-@Serializable
-data class Accounts (
     val result: String,
     val data: List<Datum>,
     val count: Long
-)
+) : ApiMessage()
 
 @Serializable
 data class Datum (

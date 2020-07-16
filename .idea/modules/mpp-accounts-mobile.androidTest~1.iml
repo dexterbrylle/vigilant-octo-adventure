@@ -5,9 +5,9 @@
       <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" isTestModule="true" externalProjectId="mpp-accounts-mobile">
         <dependsOnModuleNames>mpp-accounts-mobile:commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>mpp-accounts-mobile.commonMain~1</sourceSet>
           <sourceSet>mpp-accounts-mobile.androidMain~1</sourceSet>
           <sourceSet>mpp-accounts-mobile.commonTest~1</sourceSet>
+          <sourceSet>mpp-accounts-mobile.commonMain~1</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>androidTest|mpp-accounts-mobile:androidTest|android</externalSystemTestTasks>
