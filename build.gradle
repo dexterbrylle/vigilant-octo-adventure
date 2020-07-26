@@ -39,6 +39,14 @@ apply plugin: 'org.jetbrains.kotlin.plugin.serialization'
 apply plugin: 'org.jetbrains.kotlin.android.extensions'
 
 kotlin {
+    js {
+        browser {
+
+        }
+        nodejs {
+
+        }
+    }
     targets {
         final def iOSTarget = System.getenv('SDK_NAME')?.startsWith("iphoneos") ? presets.iosArm64 : presets.iosX64
 
@@ -106,6 +114,11 @@ kotlin {
             }
         }
         iosTest {
+        }
+        jsMain {
+            dependencies {
+                implementation kotlin('stdlib-js')
+            }
         }
     }
 }
